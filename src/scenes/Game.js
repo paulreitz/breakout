@@ -9,9 +9,9 @@ import { END_SCREEN } from '../consts/SceneKeys';
 export default class Game extends Phaser.Scene {
     init() {
         this.nextPosition = 400;
-        this.rowCount = 7;
+        this.rowCount = 3;
         this.ballSpeed = 200;
-        this.score = 1660;
+        this.score = 0;
         this.balls = 5;
     }
 
